@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class HotelSearchTest {
 
-    private static final OstrovokMainPage ostrovokPage = new OstrovokMainPage();
+    private final OstrovokMainPage ostrovokPage = new OstrovokMainPage();
 
     @BeforeEach
     void precondition() {
